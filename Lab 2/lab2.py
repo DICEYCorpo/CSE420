@@ -35,26 +35,30 @@ def web(str):
         elif state == 5:
             if 65 <= ord(str[i]) <= 90 or 97 <= ord(str[i]) <= 122 or 48 <= ord(str[i]) <= 57:
                 state = 5
+
             elif str[i] == '.':
                 state = 6
             else:
                 break
 
         elif state == 6:
-            if str[i] == 'c':
+            if 65 <= ord(str[i]) <= 90 or 97 <= ord(str[i]) <= 122 or 48 <= ord(str[i]) <= 57:
+                state = 6
+                checker = True
+            elif str[i] == '.' or str[i] == '/':
                 state = 7
+                checker = False
             else:
                 break
 
         elif state == 7:
-            if str[i] == 'o':
-                state = 8
+            if 65 <= ord(str[i]) <= 90 or 97 <= ord(str[i]) <= 122 or 48 <= ord(str[i]) <= 57:
+                state = 7
+                checker = True
             else:
+                checker = False
                 break
 
-        elif state == 8:
-            if str[i] == 'm':
-                checker = True
         i += 1
     return checker
 
@@ -84,23 +88,35 @@ def mail(str):
             else:
                 break
 
+
         elif state == 3:
-            if str[i] == 'c':
+            if 65 <= ord(str[i]) <= 90 or 97 <= ord(str[i]) <= 122:
+                state = 3
+                email = True
+            elif str[i] == '.':
                 state = 4
+                email = False
             else:
                 break
+
 
         elif state == 4:
-            if str[i] == 'o':
+            if 65 <= ord(str[i]) <= 90 or 97 <= ord(str[i]) <= 122:
+                state = 4
+                email = True
+            elif str[i] == '.':
                 state = 5
+                email = False
             else:
                 break
 
+
         elif state == 5:
-            if str[i] == 'm':
+            if 65 <= ord(str[i]) <= 90 or 97 <= ord(str[i]) <= 122:
+                state = 5
                 email = True
-                state = 0
             else:
+                email = False
                 break
         i += 1
     return email
