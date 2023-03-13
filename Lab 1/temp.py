@@ -5,3 +5,5 @@ for i in f:
     temp += i
 
 print(temp)
+
+
