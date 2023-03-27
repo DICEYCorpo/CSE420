@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1247a3e5-def9-43da-8769-0ad501b0d2e3" name="Changes" comment="Debugged Lab 2 for better detection.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 1/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 1/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CSE420/Lab&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CSE422&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -205,6 +204,9 @@
       <workItem from="1677849513827" duration="135000" />
       <workItem from="1677849658974" duration="67000" />
       <workItem from="1677849743254" duration="37000" />
+      <workItem from="1678717307339" duration="373000" />
+      <workItem from="1678719467047" duration="297000" />
+      <workItem from="1679219668330" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="First upload.">
       <created>1677510409260</created>
@@ -234,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677513433256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Debugged Lab 2 for better detection.">
+      <created>1678717569470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678717569470</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +256,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Debugged Lab 2 for better detection." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lab$lab2__1_.coverage" NAME="lab2 (1) Coverage Results" MODIFIED="1677513389015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab 2" />
+    <SUITE FILE_PATH="coverage/Lab$lab2__1_.coverage" NAME="lab2 (1) Coverage Results" MODIFIED="1678717365937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab 2" />
     <SUITE FILE_PATH="coverage/Lab$temp.coverage" NAME="temp Coverage Results" MODIFIED="1676218591557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lab$lab2.coverage" NAME="lab2 Coverage Results" MODIFIED="1676885001904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
     <SUITE FILE_PATH="coverage/Lab$temp__1_.coverage" NAME="temp (1) Coverage Results" MODIFIED="1676880651280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
